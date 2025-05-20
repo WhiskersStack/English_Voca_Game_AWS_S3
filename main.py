@@ -1,10 +1,10 @@
 """ Main module for the English vocabulary game. """
 import time
-from voca.print_options import print_game_options
-from voca.loading_feature import loading
-from voca.create_game from voca import create_game
-from voca.edit_controller import load_edit_controller
-from voca.print_words from voca import print_words
+from print_options import print_game_options
+from loading_feature import loading
+from create_game import create_game
+from edit_controller import load_edit_controller
+from print_words import print_words
 
 def main():
     """ Main function to start the English vocabulary game. """
